@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<!--Toolbar-->
+	<include
+		android:id="@+id/toolbar"
+		layout="@layout/toolbar" />
+	
+	<!--ProgressBar-->
+	<ProgressBar
+		android:id="@+id/progress_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+		
+		<!--style="?android:attr/progressBarStyleHorizontal" />-->
+	
+	<!--WebView-->
+	<WebView
+		android:id="@+id/read_news"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+    
+</LinearLayout>

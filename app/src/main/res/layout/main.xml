@@ -1,0 +1,45 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+	android:id="@+id/drawer_layout"
+    android:orientation="vertical">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+			
+			<!--Toolbar-->
+			<include
+				android:id="@+id/toolbar"
+				layout="@layout/toolbar" />
+			
+			<!--TabLayout-->
+			<include
+				android:id="@+id/tab_layout"
+				layout="@layout/tab_layout" />
+			
+			<!--ViewPager-->
+			<include
+				android:id="@+id/view_pager"
+				layout="@layout/view_pager" />
+		
+	    </LinearLayout>
+	</RelativeLayout>
+	
+	<android.support.design.widget.NavigationView
+		android:id="@+id/nav_view"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_gravity="start"
+		app:headerLayout="@layout/nav_header"
+		app:menu="@menu/nav_menu" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Theme Light-->
+	<style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+		<item name="toolbar_style">@style/toolbar_light</item>
+		<item name="tab_layout_style">@style/tab_layout_theme</item>
+	</style>
+	
+	
+	<!--Theme Dark-->
+	<style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+		<item name="toolbar_style">@style/toolbar_dark</item>
+		<item name="tab_layout_style">@style/tab_layout_theme</item>
+	</style>
+	
+</resources>	

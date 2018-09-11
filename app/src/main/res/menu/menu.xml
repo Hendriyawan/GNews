@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/invert_colors"
+        android:title="Invert colors"
+		android:icon="@drawable/invert_colors100"
+		app:showAsAction="always" />
+	
+</menu>

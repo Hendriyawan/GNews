@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/terbaru"
+			android:icon="@drawable/ic_update100"
+			android:title="TERBARU" />
+		<item
+			android:id="@+id/teknologi"
+			android:icon="@drawable/ic_technology100"
+			android:title="TEKNOLOGI" />
+		<item
+			android:id="@+id/bisnis"
+			android:icon="@drawable/ic_business100"
+			android:title="BISNIS" />
+		<item
+			android:id="@+id/olahraga"
+			android:icon="@drawable/ic_sports100"
+			android:title="OLAHRAGA" />
+		<item
+			android:id="@+id/kesehatan"
+			android:icon="@drawable/ic_health100"
+			android:title="KESEHATAN" />
+		<item
+			android:id="@+id/hiburan"
+			android:icon="@drawable/ic_entertainment100"
+			android:title="HIBURAN" />
+
+		<item
+			android:id="@+id/about"
+			android:title="Tentang"
+			android:icon="@drawable/ic_about100" />
+	</group>
+	
+</menu>

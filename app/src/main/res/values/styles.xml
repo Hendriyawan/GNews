@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Toolbar Light-->
+    <style name="toolbar_light" parent="Widget.AppCompat.Toolbar">
+		<item name="android:background">?attr/colorPrimary</item>
+		<item name="theme">@style/Toolbar.Light</item>
+		<item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+	</style>
+	<style name="Toolbar.Light" parent="ThemeOverlay.AppCompat.Light">
+		<item name="android:textColorPrimary">#ffffff</item>
+		<item name="android:textColorSecondary">#ffffff</item>
+		<item name="android:textColorPrimaryInverse">#ffffff</item>
+		<item name="actionMenuTextColor">#ffffff</item>
+	</style>
+	
+	<!--Toolbar Dark-->
+	<style name="toolbar_dark" parent="Widget.AppCompat.Toolbar">
+		<item name="android:background">?attr/colorPrimary</item>
+	</style>
+	
+	<!--TabLayout-->
+	<style name="tab_layout_theme" parent="Widget.Design.TabLayout">
+		<item name="tabIndicatorColor">?attr/colorAccent</item>
+		<item name="tabIndicatorHeight">4dp</item>
+		<item name="tabTextAppearance">@style/tab_text_appearance</item>
+		<item name="tabSelectedTextColor">@android:color/white</item>
+	</style>
+	
+	<style name="tab_text_appearance" parent="TextAppearance.Design.Tab">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+</resources>
