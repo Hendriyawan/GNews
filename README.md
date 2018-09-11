@@ -1,0 +1,2 @@
+# GNews
+Aplikasi berita sederhana
